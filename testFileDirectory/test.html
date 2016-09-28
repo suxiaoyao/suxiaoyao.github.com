@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>妖妖的第一个html网页</title>
+    <style type="text/css">
+        h1{color: red}
+        p{color: blue}
+        b{color: green}
+    </style>
+</head>
+<body bgcolor="white">
+    <h1 align="center"> <a name="一级标题">一级标题</a></h1>
+    <p align="right" >一级段落</p>
+    <h2 align="left">二级标题1</h2>
+    <p>二级段落</p>
+    <h3 align="center">三级标题</h3>
+    <p>三级段落</p>
+    <h4 align="center">四级标题</h4>
+    <p>四级段落</p>
+    <h5 align="center">五级标题</h5>
+    <p>五级段落</p>
+    <h6 align="center">六级标题</h6>
+    <p>六级段落</p>
+    <a href="http://www.doshr.com" name="多少科技">多少科技</a> <!-- 这是公司的地址链接 -->
+    <br/>
+    <a href="#多少科技">快速定位</a>
+    <br/>
+    <a href="http://github.com" style="text-decoration:none" target="_blank">git(此链接无下划线)</a>
+    <br/>
+    <a href="/Users/dandy/Desktop/test.png">image</a>
+    <br/>
+    <hr /> 
+    <br/>
+    <a href="http://google.com">
+        <img src="/Users/dandy/Desktop/test.png" width="600" height="600" align="center">
+    </a>
+    <br/>
+    <b>b标签</b>
+    <br/>
+    <strong>strong标签</strong>
+    <br/>
+    <big>big标签</big>
+    <br/>
+    <em>em标签</em>
+    <br/>
+    <i>i标签</i>
+    <br/>
+    <small>small标签</small>
+    <sub>sub标签</sub>
+    <sup>sup标签</sup>
+    <br/>
+    <ins>ins标签</ins>
+    <br/>
+    <del>del标签</del>
+    <pre>
+    	
+    for(int i = 0; i < 10; i++) {
+    	print("你是脑残");
+    }
+
+    </pre>
+	<br/>
+    <p>
+    	
+		for(int i = 0; i < 10; i++) {
+			print("你是脑残");
+		}
+
+    </p>
+    <br/>
+    <code>
+    	<pre>
+#pragma mark --getter tableView
+- (UITableView *)tableView {
+    if (!_tableView) {
+        CGRect tableViewFrame = CGRectMake(0, 64, WIDTH_SCREEN, HEIGHT_SCREEN - 64);
+        _tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
+        _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        
+        // 添加TableView的刷新控件
+        //1.下拉
+        [_tableView addLegendHeaderWithRefreshingTarget:self refreshingAction:@selector(refresh)];
+        [_tableView.header setUpdatedTimeHidden:YES];
+        [_tableView.header setStateHidden:YES];
+        /*
+        //2.上拉
+        [_tableView addLegendFooterWithRefreshingTarget:self refreshingAction:@selector(loadMore)];
+         */
+    }
+    return _tableView;
+}
+		</pre>
+    </code>
+
+    <br/>
+
+    <kbd>kbd标签</kbd>
+    <br/>
+
+    <tt>tt标签</tt>
+    <br/>
+
+    <samp>samp标签</samp>
+    <br/>
+
+    <var>var标签</var>
+    <br/>
+
+    <p>
+    	
+    	<b>注释:</b>这些标签常用来显示计算机代码
+
+    </p>
+
+    <address>
+Written by <a href="http://www.baidu.com">Dandy</a>.<br/> 
+Visit us at:<br/>
+Example.com<br/>
+Box 564, Disneyland<br/>
+USA
+	</address>
+
+	<br/>
+	<abbr title="李尧">尧</abbr>
+	<br />
+	<acronym title="杭州多少科技有限公司">多少</acronym>
+
+	<p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+
+	<p>仅对于 IE 5 中的 acronym 元素有效。</p>
+
+	<p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+
+
+	<p>
+如果您的浏览器支持 bi-directional override (bdo)，下一行会从右向左输出 (rtl)；
+	</p>
+
+	<bdo dir="rtl">
+Here is some Hebrew text
+	</bdo>
+
+	<blockquote>这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用，这是一段长的引用。</blockquote>
+
+	这是短的引用:
+	<q>短引用</q>
+    <br/>
+    <a href="#一级标题">回到一级标题</a>
+
+</body>
+</html>
