@@ -4,11 +4,80 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="common/css/stylesheet.css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="thirdparty/bootstrap-4.1.3/css/bootstrap.min.css" media="screen">
+
+    <script src="thirdparty/jquery/js/jquery-3.3.1.min.js"></script>
+
+    <script src="thirdparty/popper-1.14.4/popper.min.js"></script>
+
+    <script src="thirdparty/bootstrap-4.1.3/js/bootstrap.min.js"></script>
 
     <title>妖妖的github个人主页</title>
   </head>
 
   <body>
+    <div>
+      <nav class="navbar-class">
+        <ul class="nav-ul-class">
+          <li class="nav-li-class">
+            <a class="nav-link-class nav-link-class-active" href="https://suxiaoyao.github.io">首页</a>
+          </li>
+          <li class="nav-li-class">
+            <a class="nav-link-class" href="https://www.jianshu.com/u/1438943c2b68" target="_blank">我的博客</a>
+          </li>
+          <li class="nav-li-class">
+            <a class="nav-link-class" href="#">七夕专题</a>
+          </li>
+        </ul>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- 指示符 -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- 轮播图片 -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://static.runoob.com/images/mix/img_fjords_wide.jpg">
+              <div class="carousel-caption">
+                <h3>第一张图片描述标题</h3>
+                <p>描述文字!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.runoob.com/images/mix/img_nature_wide.jpg">
+              <div class="carousel-caption">
+                <h3>第二张图片描述标题</h3>
+                <p>描述文字!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.runoob.com/images/mix/img_mountains_wide.jpg">
+              <div class="carousel-caption">
+                <h3>第三张图片描述标题</h3>
+                <p>描述文字!</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 左右切换按钮 -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+      </nav>
+    </div>
   </body>
 </html>

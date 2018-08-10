@@ -1,0 +1,43 @@
+/*导航开始*/
+.navbar-class {
+    opacity: 0.8;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-ul-class {
+    margin-right: 20%;
+    float: right;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.nav-li-class {
+    margin-left: 40px;
+    float: left;
+}
+
+.nav-link-class {
+
+    color: #555555;
+
+}
+
+.nav-link-class-active {
+    color: #1cb9c8;
+}
+
+a.nav-link-class:hover {
+    color:#1cb9c8;
+    text-decoration: none;
+}  /* 鼠标移动到链接上 */
+/*导航结束*/
+
+/*轮播开始*/
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*轮播结束*/

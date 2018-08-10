@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+theme-back-color {
+    background-color: #1cb9c8;
+}
+
+theme-normal-back-color {
+    background-color: #ffffff;
+}
+
+theme-text-color {
+    color: #1cb9c8;
+}
+
+theme-normal-text-color {
+    color: #555555;
+}
+
+theme-sub-text-color {
+    color: #9c9c9c;
+}
+
