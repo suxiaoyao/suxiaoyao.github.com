@@ -41,3 +41,312 @@ a.nav-link-class:hover {
 }
 
 /*轮播结束*/
+
+
+/*section-1-container开始*/
+.section-1-container {
+    height: 662px;
+    position: relative;
+}
+
+.section-1-white-view-back {
+    height: 418px;
+    background-color: white;
+}
+
+.section-1-bright-view-back {
+    height: 244px;
+    background-color: #1cb9c8;
+    position: relative;
+}
+
+.section-title {
+    color: #1cb9c8;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-line-view {
+    width: 60px;
+    height: 2px;
+    background-color: #1cb9c8;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.section-sub-title {
+    color: #9c9c9c;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.section-1-read-more-button {
+    display: block;
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #1cb9c8;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+a.section-1-read-more-button:hover {
+    background-color: white;
+    color:#1cb9c8;
+    text-decoration: none;
+}
+
+.section-1-card-container {
+    height: 340px;
+    position: absolute;
+    top: 148px;
+    left: 0;
+    right: 0;
+}
+
+.section-1-card-ul-class {
+    list-style-type: none;
+    height: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: center;
+}
+
+.section-1-card-li-class {
+    width: 255px;
+    height: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section-1-card-a-class {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition:transform 0.5s;
+    -webkit-transition:-webkit-transform 0.5s; /* Safari */
+}
+
+a.section-1-card-a-class:hover {
+    text-decoration: none;
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+}
+
+.section-1-card-img-class {
+    width: 100%;
+    height: 270px;
+}
+
+.section-1-card-title-class {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: white;
+    color: #555555;
+    font-size: 14px;
+}
+
+/*section-1-container结束*/
+
+/*section-2-container开始*/
+
+.section-2-container {
+    height: 605px;
+    background-color: white;
+}
+
+.section-2-card-container {
+    height: 329px;
+    margin-top: 29px;
+}
+
+.section-2-card-ul-class {
+    list-style-type: none;
+    height: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: center;
+}
+
+.section-2-card-li-class {
+    width: 285px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-2-card-a-class {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.section-2-card-img-class {
+    width: 100%;
+    height: 100%;
+}
+
+.section-2-card-hover-div-class {
+
+    background-color:rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:none;
+
+}
+
+.section-2-card-hover-title {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section-2-card-hover-content {
+    width: 206px;
+    height: 92px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.section-2-card-hover-button {
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px #ffffff;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.section-2-read-more-button {
+    display: block;
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #1cb9c8;
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+a.section-2-read-more-button:hover {
+    background-color: white;
+    color:#1cb9c8;
+    text-decoration: none;
+    border: solid 1px #1cb9c8;
+}
+
+/*section-2-container结束*/
+
+/*section-3-container开始*/
+
+.section-3-container {
+    height: 488px;
+    background-color: #1cb9c8;
+}
+
+/*section-3-container结束*/
+
+/*about-me-container开始*/
+
+.about-me-container {
+    height: 602px;
+    background-color: white;
+}
+
+.about-content-container {
+    height: 403px;
+    margin-top: 30px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: center;
+}
+
+.about-desc-container {
+    width: 570px;
+    height: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.about-title-container {
+    margin-top: 11px;
+    font-size: 24px;
+    color: #1cb9c8;
+}
+
+.about-me-line {
+    width: 60px;
+    height: 2px;
+    background-color: #1cb9c8;
+    margin-top: 15px;
+}
+
+.about-me-content-container {
+    margin-top: 30px;
+    height: 188px;
+}
+
+.about-me-content {
+    font-size: 14px;
+    color: #555555;
+    text-indent:35px;
+    margin-bottom: 0;
+    line-height: 25px;
+}
+
+.about-me-read-more-button {
+    display: block;
+    width: 200px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #1cb9c8;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+a.about-me-read-more-button:hover {
+    background-color: white;
+    color:#1cb9c8;
+    text-decoration: none;
+    border: solid 1px #1cb9c8;
+}
+
+.about-me-img {
+    height: 100%;
+    width: 100%;
+}
+
+/*about-me-container结束*/

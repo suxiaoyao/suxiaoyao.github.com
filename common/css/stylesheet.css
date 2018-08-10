@@ -1,10 +1,13 @@
 body {
-  margin: 0;
-  padding: 0;
   background: #ffffff;
   color: #555555;
   font-size: 16px;
   line-height: 1.5;
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, img,a, pre, code, form, fieldset, legend, textarea, blockquote, textarea, button, p, th, td, input, select, button {
+    margin: 0;
+    padding: 0;
 }
 
 theme-back-color {
