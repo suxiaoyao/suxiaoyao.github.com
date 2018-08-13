@@ -439,3 +439,44 @@ a.about-me-read-more-button:hover {
 }
 
 /*about-me-container结束*/
+
+/*footer开始*/
+
+.footer-class {
+    background-color: #001a0d;
+    padding: 20px 0;
+}
+
+.footer-icon {
+    display: block;
+    margin: auto;
+    width: 84px;
+    height: 84px;
+    border-radius: 4px;
+}
+
+.footer-ul-class {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 15px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-rignt-border {
+    border-right: solid 1px #c6c6c6;
+}
+
+.footer-link-class {
+    color: #c6c6c6;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+a.footer-link-class:hover {
+    text-decoration: none;
+    color: #1cb9c8;
+}
+
+/*footer结束*/
