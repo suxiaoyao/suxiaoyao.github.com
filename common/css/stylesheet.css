@@ -10,23 +10,8 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, img,a, p
     padding: 0;
 }
 
-theme-back-color {
-    background-color: #1cb9c8;
+.margin-top-0 {
+    margin-top: 0;
 }
 
-theme-normal-back-color {
-    background-color: #ffffff;
-}
-
-theme-text-color {
-    color: #1cb9c8;
-}
-
-theme-normal-text-color {
-    color: #555555;
-}
-
-theme-sub-text-color {
-    color: #9c9c9c;
-}
 
