@@ -1,33 +1,21 @@
 /*导航开始*/
-.navbar-class {
-    opacity: 0.8;
-    height: 80px;
-    line-height: 80px;
+nav.navbar-class {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 5rem;
 }
 
-.nav-ul-class {
-    margin-right: 20%;
-    float: right;
-    list-style-type: none;
-    margin-bottom: 0;
-}
-
-.nav-li-class {
-    margin-left: 40px;
-    float: left;
-}
-
-.nav-link-class {
+.navbar-light .navbar-nav a.nav-link-class {
 
     color: #555555;
 
 }
 
-.nav-link-class-active {
+.navbar-light .navbar-nav a.nav-link-class-active {
     color: #1cb9c8;
 }
 
-a.nav-link-class:hover {
+.navbar-light .navbar-nav a.nav-link-class:hover {
     color:#1cb9c8;
     text-decoration: none;
 }  /* 鼠标移动到链接上 */
@@ -270,7 +258,9 @@ a.section-2-read-more-button:hover {
 /*section-3-container开始*/
 
 .section-3-container {
-    height: 488px;
+    /*height: 488px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #1cb9c8;
     display: -webkit-flex; /* Safari */
     display: flex;
@@ -279,12 +269,12 @@ a.section-2-read-more-button:hover {
 }
 
 .section-3-item-container {
-    width: 585px;
-    height: 388px;
+    width: 40%;
+    /*height: 388px;*/
     margin-left: 15px;
     margin-right: 15px;
     background-color: white;
-    padding: 25px 20px 0 20px;
+    padding: 30px 20px;
 }
 
 .section-3-item-title {
@@ -350,6 +340,10 @@ a.section-3-item-more:hover {
     margin-top: 12px;
     margin-left: 23px;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: calc(100% - 81px - 23px - 20px);
 }
 
 .section-3-one-item-content {
@@ -359,8 +353,8 @@ a.section-3-item-more:hover {
     height: 35px;
     margin-left: 23px;
     margin-top: 5px;
-    width: 78%;
     overflow: hidden;
+    width: calc(100% - 81px - 23px - 20px);
 }
 
 /*section-3-container结束*/
