@@ -39,31 +39,29 @@
 
 </head>
 <body>
-    <div id="allContainer" style="display: none">
-        <ul id="menu">
-            <li data-menuanchor="page1" class="active"><a href="#page1">我的倩</a></li>
-            <li data-menuanchor="page2"><a href="#page2">我和倩</a></li>
-        </ul>
-        <div id="dowebok">
-            <div class="section">
-                <div id="gallery" class="fullscreen"></div>
-                <div id="nav" class="navbar">
-                    <button id="preview">&lt; 前一张</button>
-                    <button id="next">下一张 &gt;</button>
-                </div>
+    <ul id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1">我的倩</a></li>
+        <li data-menuanchor="page2"><a href="#page2">我和倩</a></li>
+    </ul>
+    <div id="dowebok">
+        <div class="section">
+            <div id="gallery" class="fullscreen"></div>
+            <div id="nav" class="navbar">
+                <button id="preview">&lt; 前一张</button>
+                <button id="next">下一张 &gt;</button>
             </div>
-            <div class="section">
-                <iframe src="valentineday1.html" width="100%" height="100%" frameborder="0">
-                    <p>您的浏览器不支持  iframe 标签。</p>
-                </iframe>
-            </div>
+        </div>
+        <div class="section">
+            <iframe src="valentineday1.html" width="100%" height="100%" frameborder="0">
+                <p>您的浏览器不支持  iframe 标签。</p>
+            </iframe>
         </div>
     </div>
     <script type="text/javascript" src="../thirdparty/polaroid-gallery/polaroid-gallery.js"></script>
     <script>
         $(function(){
 
-            $('#allContainer').css("display","none");
+            $('#dowebok').css("display","none");
 
             $('#dowebok').fullpage({
                 'navigation': true,
@@ -86,17 +84,17 @@
 
                 if (md5Password=="64dd9462fa8b05c6efb1c430a658a132") {
 
-                    $('#allContainer').css("display","block");
+                    $('#dowebok').css("display","block");
 
                 }else {
 
-                    $('#allContainer').css("display","none");
+                    $('#dowebok').css("display","none");
 
                 }
 
 
             }else {
-                $('#allContainer').css("display","none");
+                $('#dowebok').css("display","none");
             }
 
         });
