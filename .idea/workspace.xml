@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/data/data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/img/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/activity/valentineday1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/jQuery.dotdotdot-3.2.2/jquery.dotdotdot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/md5/md5.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/activity/valentineday.html" afterPath="$PROJECT_DIR$/activity/valentineday.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,95 +40,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/css/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+            <state relative-caret-position="292">
+              <caret line="139" column="16" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hammer.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thirdparty/hammer-2.0.8/hammer.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="valentineday.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.hammer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thirdparty/hammer-2.0.8/jquery.hammer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thirdparty/bootstrap-4.1.3/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="5" column="6676" lean-forward="false" selection-start-line="5" selection-start-column="6676" selection-end-line="5" selection-end-column="6676" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popper.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thirdparty/popper-1.14.4/popper.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="3" column="2378" lean-forward="true" selection-start-line="3" selection-start-column="2378" selection-end-line="3" selection-end-column="2378" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="77" />
+            <state relative-caret-position="280">
+              <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fullPage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.fullPage.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valentineday.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valentineday1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity/valentineday1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polaroid-gallery.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polaroid-gallery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity/data/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -139,8 +161,10 @@
       <find>.container</find>
       <find>ca</find>
       <find>cal</find>
-      <find>demo</find>
       <find>icon.jp</find>
+      <find>demo</find>
+      <find>polaroidGallery</find>
+      <find>64dd9462fa8b05c6efb1c430a658a132</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +180,11 @@
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/thirdparty/hammer-2.0.8/hammer.min.js" />
         <option value="$PROJECT_DIR$/thirdparty/hammer-2.0.8/jquery.hammer.js" />
-        <option value="$PROJECT_DIR$/activity/valentineday.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/activity/data/data.json" />
+        <option value="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" />
+        <option value="$PROJECT_DIR$/activity/valentineday1.html" />
+        <option value="$PROJECT_DIR$/activity/valentineday.html" />
       </list>
     </option>
   </component>
@@ -168,7 +195,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="53" />
+    <option name="x" value="43" />
     <option name="y" value="23" />
     <option name="width" value="1394" />
     <option name="height" value="877" />
@@ -196,38 +223,6 @@
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
-              <item name="hammer-2.0.8" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,12 +239,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/activity" />
+      <recent name="$PROJECT_DIR$/thirdparty/polaroid-gallery" />
+      <recent name="$PROJECT_DIR$/thirdparty/jquery.fullPage" />
+      <recent name="$PROJECT_DIR$/thirdparty/jQuery.dotdotdot-3.2.2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thirdparty/md5" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/thirdparty/popper-1.14.4" />
       <recent name="$PROJECT_DIR$/common/css" />
       <recent name="$PROJECT_DIR$/common" />
-      <recent name="$PROJECT_DIR$/thirdparty/bootstrap-4.1.3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,18 +278,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
-      <workItem from="1533802959743" duration="39513000" />
+      <workItem from="1533802959743" duration="51006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39513000" />
+    <option name="totallyTimeSpent" value="51006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24873096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24873096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -384,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/params.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thirdparty/bootstrap-4.1.3/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -403,9 +395,9 @@
     <entry file="file://$PROJECT_DIR$/thirdparty/popper-1.14.4/popper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="3" column="2378" lean-forward="true" selection-start-line="3" selection-start-column="2378" selection-end-line="3" selection-end-column="2378" />
+          <caret line="3" column="2378" lean-forward="false" selection-start-line="3" selection-start-column="2378" selection-end-line="3" selection-end-column="2378" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -423,40 +415,106 @@
         <state relative-caret-position="90">
           <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thirdparty/hammer-2.0.8/jquery.hammer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
+    <entry file="file://$PROJECT_DIR$/thirdparty/jQuery.dotdotdot-3.2.2/jquery.dotdotdot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/jquery.fullPage/jquery.fullPage.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="139" column="16" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="280">
+          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/valentineday1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

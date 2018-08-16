@@ -3,8 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <title>七夕主题</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="李尧 张倩 情人节 七夕">
+    <meta name="description" content="李尧与张倩的情人节">
+
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="../common/css/stylesheet.css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="../thirdparty/jquery.fullPage/jquery.fullPage.css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="../thirdparty/polaroid-gallery/polaroid-gallery.css"/>
+
+    <style>
+        #menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+        #menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+        #menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+        #menu .active a { color: #fff; background-color: #333;}
+        .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+    </style>
+
+    <script src="../thirdparty/jquery/js/jquery-3.3.1.min.js"></script>
+
+    <script src="../thirdparty/jquery.fullPage/jquery.fullPage.min.js"></script>
+
+    <script src="../thirdparty/md5/md5.js"></script>
+
+    <!--[if IE]>
+    <script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-    <!--<h1>宝宝情人节快乐</h1>-->
+    <div id="allContainer" style="display: none">
+        <ul id="menu">
+            <li data-menuanchor="page1" class="active"><a href="#page1">我的倩</a></li>
+            <li data-menuanchor="page2"><a href="#page2">我和倩</a></li>
+        </ul>
+        <div id="dowebok">
+            <div class="section">
+                <div id="gallery" class="fullscreen"></div>
+                <div id="nav" class="navbar">
+                    <button id="preview">&lt; 前一张</button>
+                    <button id="next">下一张 &gt;</button>
+                </div>
+            </div>
+            <div class="section">
+                <iframe src="valentineday1.html" width="100%" height="100%" frameborder="0">
+                    <p>您的浏览器不支持  iframe 标签。</p>
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../thirdparty/polaroid-gallery/polaroid-gallery.js"></script>
+    <script>
+        $(function(){
+
+            $('#allContainer').css("display","none");
+
+            $('#dowebok').fullpage({
+                'navigation': true,
+                anchors: ['page1', 'page2'],
+                menu: '#menu',
+                afterLoad: function(anchorLink, index) {
+
+                },
+                onLeave: function(index, nextIndex, direction) {
+
+                }
+            });
+            new polaroidGallery("data/data.json");
+
+            var password=prompt("只有输入正确的密码才能查看哦","");
+
+            if (password!=null && password!=""){
+
+                var md5Password = hex_md5(password);
+
+                if (md5Password=="64dd9462fa8b05c6efb1c430a658a132") {
+
+                    $('#allContainer').css("display","block");
+
+                }else {
+
+                    $('#allContainer').css("display","none");
+
+                }
+
+
+            }else {
+                $('#allContainer').css("display","none");
+            }
+
+        });
+    </script>
 </body>
 </html>
