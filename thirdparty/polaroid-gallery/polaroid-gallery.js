@@ -7,7 +7,7 @@ var polaroidGallery = (function () {
     var xmlhttp = new XMLHttpRequest();
     var url = "data/data.json";
 
-    function polaroidGallery() {
+    function polaroidGallery(dataUrl) {
         observe();
         xmlhttp.onreadystatechange = function () {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
@@ -17,6 +17,11 @@ var polaroidGallery = (function () {
                 init();
             }
         };
+
+        if (dataUrl && dataUrl.length > 0) {
+            url = dataUrl;
+        }
+
         xmlhttp.open("GET", url, true);
         xmlhttp.send();
     }
