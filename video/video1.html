@@ -1,23 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link href="../common/css/stylesheet.css" rel="stylesheet">
+
 </head>
 <body>
-
-<div id="playercontainer"></div>
+<div style="width: 50vw; height: 50vh;float: left;">
+    <div id="playercontainer"></div>
+</div>
+<div style="width: 50vw; height: 50vh;float: left;">
+    <div id="playercontainer1"></div>
+</div>
+<div style="width: 50vw; height: 50vh;float: left;">
+    <div id="playercontainer2"></div>
+</div>
+<div style="width: 50vw; height: 50vh;float: left;">
+    <div id="playercontainer3"></div>
+</div>
+<div style="clear: both;"></div>
 <script type="text/javascript" src="player/cyberplayer.js"></script>
 <script type="text/javascript">
     var player = cyberplayer("playercontainer").setup({
-        width: 680,
-        height: 448,
+        width: '100%',
+        height: '100%',
+        file: "rtmp://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1", // <—rtmp or flv直播地址
+        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+        autostart: true,
+        stretching: "uniform",
+        volume: 100,
+        controls: false,
+        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+    });
+    var player1 = cyberplayer("playercontainer1").setup({
+        width: '100%',
+        height: '100%',
+        file: "rtmp://live.hkstv.hk.lxdns.com/live/hks", // <—rtmp or flv直播地址
+        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+        autostart: true,
+        stretching: "uniform",
+        volume: 100,
+        controls: false,
+        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+    });
+    var player2 = cyberplayer("playercontainer2").setup({
+        width: '100%',
+        height: '100%',
+        file: "rtmp://live.hkstv.hk.lxdns.com/live/hks", // <—rtmp or flv直播地址
+        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+        autostart: true,
+        stretching: "uniform",
+        volume: 100,
+        controls: false,
+        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+    });
+    var player3 = cyberplayer("playercontainer3").setup({
+        width: '100%',
+        height: '100%',
         file: "rtmp://pull-g.kktv8.com/livekktv/100987038", // <—rtmp or flv直播地址
         fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
         autostart: true,
         stretching: "uniform",
         volume: 100,
-        controls: true,
+        controls: false,
         ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
     });
 </script>
