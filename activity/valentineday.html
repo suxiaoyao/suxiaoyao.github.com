@@ -55,29 +55,42 @@
             </div>
         </div>
         <div class="section">
-            <iframe src="valentineday1.html" width="100%" height="100%" frameborder="0" scrolling="no">
-                <p>您的浏览器不支持  iframe 标签。</p>
-            </iframe>
+            <div id="gallery1" class="fullscreen"></div>
+            <div id="nav1" class="navbar">
+                <button id="preview1">&lt; 前一张</button>
+                <button id="next1">下一张 &gt;</button>
+            </div>
         </div>
         <div class="section">
-            <iframe src="valentineday2.html" width="100%" height="100%" frameborder="0">
-                <p>您的浏览器不支持  iframe 标签。</p>
-            </iframe>
+            <div id="gallery2" class="fullscreen"></div>
+            <div id="nav2" class="navbar">
+                <button id="preview2">&lt; 前一张</button>
+                <button id="next2">下一张 &gt;</button>
+            </div>
         </div>
         <div class="section">
-            <iframe src="valentineday3.html" width="100%" height="100%" frameborder="0">
-                <p>您的浏览器不支持  iframe 标签。</p>
-            </iframe>
+            <div id="gallery3" class="fullscreen"></div>
+            <div id="nav3" class="navbar">
+                <button id="preview3">&lt; 前一张</button>
+                <button id="next3">下一张 &gt;</button>
+            </div>
         </div>
         <div class="section">
-            <iframe src="valentineday4.html" width="100%" height="100%" frameborder="0">
-                <p>您的浏览器不支持  iframe 标签。</p>
-            </iframe>
+            <div id="gallery4" class="fullscreen"></div>
+            <div id="nav4" class="navbar">
+                <button id="preview4">&lt; 前一张</button>
+                <button id="next4">下一张 &gt;</button>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="../thirdparty/polaroid-gallery/polaroid-gallery.js"></script>
     <script>
         $(function(){
+
+            var isGallery1Load = false;
+            var isGallery2Load = false;
+            var isGallery3Load = false;
+            var isGallery4Load = false;
 
             $('#dowebok').css("display","none");
 
@@ -87,12 +100,29 @@
                 menu: '#menu',
                 afterLoad: function(anchorLink, index) {
 
+                    console.log('sdedededed' + index);
+
+                    if (index == 2 && isGallery1Load == false) {
+                        isGallery1Load = true;
+                        new polaroidGallery('gallery1', 'nav1', 'next1', 'preview1', "data/data1.json");
+                    }else if (index == 3 && isGallery2Load == false) {
+                        isGallery2Load = true;
+                        new polaroidGallery('gallery2', 'nav2', 'next2', 'preview2', "data/data2.json");
+                    }else if (index == 4 && isGallery3Load == false) {
+                        isGallery3Load = true;
+                        new polaroidGallery('gallery3', 'nav3', 'next3', 'preview3', "data/data3.json");
+                    }else if (index == 5 && isGallery4Load == false) {
+                        isGallery4Load = true;
+                        new polaroidGallery('gallery4', 'nav4', 'next4', 'preview4', "data/data4.json");
+                    }
+
                 },
                 onLeave: function(index, nextIndex, direction) {
 
                 }
             });
-            new polaroidGallery("data/data.json");
+
+            new polaroidGallery('gallery', 'nav', 'next', 'preview', "data/data.json");
 
             var password=prompt("只有输入正确的密码才能查看哦","");
 

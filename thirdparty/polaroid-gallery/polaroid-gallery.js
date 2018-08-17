@@ -6,10 +6,36 @@ var polaroidGallery = (function () {
     var resizeTimeout = null;
     var xmlhttp = new XMLHttpRequest();
     var url = "data/data.json";
+    var galleryId = 'gallery';
+    var navId = 'nav';
+    var nextId = 'next';
+    var previewId = 'preview';
 
-    function polaroidGallery(dataUrl) {
+    function polaroidGallery(xgalleryId, xnavId, xnextId, xpreviewId, dataUrl) {
+
+        if (dataUrl && dataUrl.length > 0) {
+            url = dataUrl;
+        }
+
+        if (xgalleryId && xgalleryId.length > 0) {
+            galleryId = xgalleryId;
+        }
+
+        if (xnavId && xnavId.length > 0) {
+            navId = xnavId;
+        }
+
+        if (xnextId && xnextId.length > 0) {
+            nextId = xnextId;
+        }
+
+        if (xpreviewId && xpreviewId.length > 0) {
+            previewId = xpreviewId;
+        }
+
         observe();
         xmlhttp.onreadystatechange = function () {
+
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                 var myArr = JSON.parse(xmlhttp.responseText);
                 setGallery(myArr);
@@ -17,10 +43,6 @@ var polaroidGallery = (function () {
                 init();
             }
         };
-
-        if (dataUrl && dataUrl.length > 0) {
-            url = dataUrl;
-        }
 
         xmlhttp.open("GET", url, true);
         xmlhttp.send();
@@ -46,7 +68,7 @@ var polaroidGallery = (function () {
             }
 
         }
-        document.getElementById("gallery").innerHTML = out;
+        document.getElementById(galleryId).innerHTML = out;
     }
 
     function observe() {
@@ -69,7 +91,7 @@ var polaroidGallery = (function () {
             }
         })();
 
-        observeDOM(document.getElementById('gallery'), function (mutations) {
+        observeDOM(document.getElementById(galleryId), function (mutations) {
             var gallery = [].slice.call(mutations[0].addedNodes);
             var zIndex = 1;
             gallery.forEach(function (item) {
@@ -96,7 +118,7 @@ var polaroidGallery = (function () {
     }
 
     function init() {
-        navbarHeight = document.getElementById("nav").offsetHeight;
+        navbarHeight = document.getElementById(navId).offsetHeight;
         navigation();
 
         window.addEventListener('resize', function () {
@@ -165,8 +187,8 @@ var polaroidGallery = (function () {
     }
 
     function navigation() {
-        var next = document.getElementById('next');
-        var preview = document.getElementById('preview');
+        var next = document.getElementById(nextId);
+        var preview = document.getElementById(previewId);
 
         next.addEventListener('click', function () {
             var currentIndex = Number(currentItem.id) + 1;

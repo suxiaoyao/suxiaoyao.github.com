@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 figure {
@@ -36,7 +37,7 @@ figure figcaption {
 }
 
 .navbar {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px;
