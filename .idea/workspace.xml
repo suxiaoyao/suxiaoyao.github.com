@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/image/video-background.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/video.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/video-js.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/video-js.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/video.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/videojs-flash.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/videojs-flash.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/video/videojs/videojs-ie8.min.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday.html" afterPath="$PROJECT_DIR$/activity/valentineday.html" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday4.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css" afterPath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css" />
-      <change beforePath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" afterPath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" />
+      <change beforePath="$PROJECT_DIR$/video/video.html" afterPath="$PROJECT_DIR$/video/video.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +60,8 @@
       <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -173,6 +156,7 @@
       <find>nex</find>
       <find>navigation</find>
       <find>dataSize</find>
+      <find>swf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,6 +245,12 @@
               <item name="video" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="videojs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -317,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
-      <workItem from="1533802959743" duration="65154000" />
+      <workItem from="1533802959743" duration="65734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65154000" />
+    <option name="totallyTimeSpent" value="65734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
@@ -633,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>

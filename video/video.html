@@ -19,6 +19,7 @@
         width: 1080,
         height: 520
     }
+    options.flash.swf = 'videojs/video-js.swf';
     var player = videojs('live-stream', options);
     player.addClass('vjs-matrix');
     player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
