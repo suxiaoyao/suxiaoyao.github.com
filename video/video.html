@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RTMP Stream Play</title>
+    <title>视频直播</title>
+    <link href="../common/css/stylesheet.css" rel="stylesheet">
     <link href="videojs/video-js.css" rel="stylesheet">
 </head>
 <body>
 <div>
-    <div style="width: 500px;height: 600px">
-        <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+    <div style="width: 50vw;height: 40vw;float: left">
+        <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered" style="width: 100%;height: 100%;object-fit: fill" autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
@@ -15,8 +16,8 @@
         </video>
     </div>
 
-    <div style="width: 500px;height: 600px;margin-top: 100px;">
-        <video id="live-stream1" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+    <div style="width: 50vw;height: 40vw;float: left">
+        <video id="live-stream1" class="video-js vjs-default-skin vjs-big-play-centered" style="width: 100%;height: 100%;object-fit: fill" autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
@@ -24,8 +25,8 @@
         </video>
     </div>
 
-    <div style="width: 500px;height: 600px;margin-top: 100px;">
-        <video id="live-stream2" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+    <div style="width: 50vw;height: 40vw;float: left">
+        <video id="live-stream2" class="video-js vjs-default-skin vjs-big-play-centered" style="width: 100%;height: 100%;object-fit: fill" autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
@@ -33,20 +34,21 @@
         </video>
     </div>
 
-    <div style="width: 500px;height: 600px;margin-top: 100px;">
-        <video id="live-stream3" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+    <div style="width: 50vw;height: 40vw;float: left">
+        <video id="live-stream3" class="video-js vjs-default-skin vjs-big-play-centered" style="width: 100%;height: 100%;object-fit: fill" autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
             <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="application/x-mpegURL">
         </video>
     </div>
+    <div style="clear: both"></div>
 </div>
 <script src="videojs/video.js"></script>
 <script>
     var options = {
-        width: 500,
-        height: 600
+        // width: '100',
+        // height: '100'
     }
     var player = videojs('live-stream', options);
     player.addClass('vjs-matrix');
@@ -67,8 +69,8 @@
 
 
     var options1 = {
-        width: 500,
-        height: 600
+        // width: '100%',
+        // height: '100%'
     }
     var player1 = videojs('live-stream1', options1);
     player1.addClass('vjs-matrix');
@@ -89,8 +91,8 @@
 
 
     var options2 = {
-        width: 500,
-        height: 600
+        // width: '100%',
+        // height: '100%'
     }
     var player2 = videojs('live-stream2', options2);
     player2.addClass('vjs-matrix');
@@ -110,8 +112,8 @@
     });
 
     var options3 = {
-        width: 500,
-        height: 600
+        // width: '100%',
+        // height: '100%'
     }
     var player3 = videojs('live-stream3', options3);
     player3.addClass('vjs-matrix');

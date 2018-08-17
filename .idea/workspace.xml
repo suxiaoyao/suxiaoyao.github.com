@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/video/video.html" afterPath="$PROJECT_DIR$/video/video.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,16 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="polaroid-gallery.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="50" column="23" lean-forward="false" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="polaroid-gallery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,14 +50,29 @@
       <file leaf-file-name="video.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="465">
+              <caret line="31" column="85" lean-forward="true" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#video#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +80,8 @@
       <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video/videojs/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="236">
+              <caret line="24606" column="22" lean-forward="false" selection-start-line="24606" selection-start-column="22" selection-end-line="24606" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -163,6 +167,10 @@
       <find>navigation</find>
       <find>dataSize</find>
       <find>swf</find>
+      <find>videojs</find>
+      <find>videojs(</find>
+      <find>options</find>
+      <find>options['height']</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,6 +236,17 @@
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -313,12 +332,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
-      <workItem from="1533802959743" duration="67335000" />
+      <workItem from="1533802959743" duration="68599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67335000" />
+    <option name="totallyTimeSpent" value="68599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
@@ -435,14 +454,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,21 +632,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video/videojs/video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="24606" column="22" lean-forward="false" selection-start-line="24606" selection-start-column="22" selection-end-line="24606" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="465">
+          <caret line="31" column="85" lean-forward="true" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
