@@ -6,49 +6,48 @@
 </head>
 <body>
 <div>
-    <div style="width: 100px;height: 100px">
-        <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+    <div style="width: 500px;height: 600px">
+        <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
-            <source src="rtmp://7ae2b574.server.topvdn.com:1935/live/537042145_134283008_1534580167_96c7baae95a1dde2ba55b70794387f93" type="application/x-mpegURL">
+            <source src="rtmp://pull-g.kktv8.com/livekktv/100987038" type="application/x-mpegURL">
         </video>
     </div>
 
-    <div style="width: 100px;height: 100px;margin-top: 100px;">
-        <video id="live-stream1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+    <div style="width: 500px;height: 600px;margin-top: 100px;">
+        <video id="live-stream1" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
                poster="image/video-background.jpg"
                data-setup='{"example_option":true}'>
             poster="image/video-background.jpg" data-setup='{"example_option":true}'>
-            <source src="rtmp://7ae2b574.server.topvdn.com:1935/live/537042145_134283008_1534580167_96c7baae95a1dde2ba55b70794387f93" type="application/x-mpegURL">
+            <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="application/x-mpegURL">
         </video>
     </div>
 
-    <!--<div style="width: 100px;height: 100px;margin-top: 20px;">-->
-        <!--<video id="live-stream2" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"-->
-               <!--poster="image/video-background.jpg"-->
-               <!--data-setup='{"example_option":true}'>-->
-            <!--poster="image/video-background.jpg" data-setup='{"example_option":true}'>-->
-            <!--<source src="rtmp://7ae2b574.server.topvdn.com:1935/live/537042145_134283008_1534580167_96c7baae95a1dde2ba55b70794387f93" type="application/x-mpegURL">-->
-        <!--</video>-->
-    <!--</div>-->
+    <div style="width: 500px;height: 600px;margin-top: 100px;">
+        <video id="live-stream2" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+               poster="image/video-background.jpg"
+               data-setup='{"example_option":true}'>
+            poster="image/video-background.jpg" data-setup='{"example_option":true}'>
+            <source src="rtmp://pull-g.kktv8.com/livekktv/100987038" type="application/x-mpegURL">
+        </video>
+    </div>
 
-    <!--<div style="width: 100px;height: 100px;margin-top: 20px;">-->
-        <!--<video id="live-stream3" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"-->
-               <!--poster="image/video-background.jpg"-->
-               <!--data-setup='{"example_option":true}'>-->
-            <!--poster="image/video-background.jpg" data-setup='{"example_option":true}'>-->
-            <!--<source src="rtmp://7ae2b574.server.topvdn.com:1935/live/537042145_134283008_1534580167_96c7baae95a1dde2ba55b70794387f93" type="application/x-mpegURL">-->
-        <!--</video>-->
-    <!--</div>-->
+    <div style="width: 500px;height: 600px;margin-top: 100px;">
+        <video id="live-stream3" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+               poster="image/video-background.jpg"
+               data-setup='{"example_option":true}'>
+            poster="image/video-background.jpg" data-setup='{"example_option":true}'>
+            <source src="rtmp://live.hkstv.hk.lxdns.com/live/hks" type="application/x-mpegURL">
+        </video>
+    </div>
 </div>
 <script src="videojs/video.js"></script>
 <script>
     var options = {
-        width: 100,
-        height: 100
+        width: 500,
+        height: 600
     }
-    options.flash.swf = 'videojs/video-js.swf';
     var player = videojs('live-stream', options);
     player.addClass('vjs-matrix');
     player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
@@ -68,10 +67,9 @@
 
 
     var options1 = {
-        width: 100,
-        height: 100
+        width: 500,
+        height: 600
     }
-    options1.flash.swf = 'videojs/video-js.swf';
     var player1 = videojs('live-stream1', options1);
     player1.addClass('vjs-matrix');
     player1.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
@@ -90,49 +88,47 @@
     });
 
 
-//     var options2 = {
-//         width: 100,
-//         height: 100
-//     }
-//     options2.flash.swf = 'videojs/video-js.swf';
-//     var player2 = videojs('live-stream2', options2);
-//     player2.addClass('vjs-matrix');
-//     player2.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
-// //        console.warn('VIDEOJS player event: ', e.type);
-//         if (e.type == "play") {
-//             console.log('开始播放');
-//         } else if (e.type == "playing") {
-//             console.log('正在播放...');
-//         } else if (e.type == "pause") {
-//             console.log('暂停视频播放');
-//         } else if (e.type == "firstplay") {
-//             console.log('firstplay播放');
-//         } else {
-//             console.log('1111111111111');
-//         }
-//     });
-//
-//     var options3 = {
-//         width: 100,
-//         height: 100
-//     }
-//     options3.flash.swf = 'videojs/video-js.swf';
-//     var player3 = videojs('live-stream3', options3);
-//     player3.addClass('vjs-matrix');
-//     player3.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
-// //        console.warn('VIDEOJS player event: ', e.type);
-//         if (e.type == "play") {
-//             console.log('开始播放');
-//         } else if (e.type == "playing") {
-//             console.log('正在播放...');
-//         } else if (e.type == "pause") {
-//             console.log('暂停视频播放');
-//         } else if (e.type == "firstplay") {
-//             console.log('firstplay播放');
-//         } else {
-//             console.log('1111111111111');
-//         }
-//     });
+    var options2 = {
+        width: 500,
+        height: 600
+    }
+    var player2 = videojs('live-stream2', options2);
+    player2.addClass('vjs-matrix');
+    player2.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+//        console.warn('VIDEOJS player event: ', e.type);
+        if (e.type == "play") {
+            console.log('开始播放');
+        } else if (e.type == "playing") {
+            console.log('正在播放...');
+        } else if (e.type == "pause") {
+            console.log('暂停视频播放');
+        } else if (e.type == "firstplay") {
+            console.log('firstplay播放');
+        } else {
+            console.log('1111111111111');
+        }
+    });
+
+    var options3 = {
+        width: 500,
+        height: 600
+    }
+    var player3 = videojs('live-stream3', options3);
+    player3.addClass('vjs-matrix');
+    player3.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+//        console.warn('VIDEOJS player event: ', e.type);
+        if (e.type == "play") {
+            console.log('开始播放');
+        } else if (e.type == "playing") {
+            console.log('正在播放...');
+        } else if (e.type == "pause") {
+            console.log('暂停视频播放');
+        } else if (e.type == "firstplay") {
+            console.log('firstplay播放');
+        } else {
+            console.log('1111111111111');
+        }
+    });
 
 </script>
 </body>
