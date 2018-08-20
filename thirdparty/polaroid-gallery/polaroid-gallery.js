@@ -10,8 +10,16 @@ var polaroidGallery = (function () {
     var navId = 'nav';
     var nextId = 'next';
     var previewId = 'preview';
+    var observeObj = null;
 
     function polaroidGallery(xgalleryId, xnavId, xnextId, xpreviewId, dataUrl) {
+
+        dataSize = {};
+        dataLength = 0;
+        currentItem = null;
+        navbarHeight = 60;
+        resizeTimeout = null;
+        xmlhttp = new XMLHttpRequest();
 
         if (dataUrl && dataUrl.length > 0) {
             url = dataUrl;
@@ -78,42 +86,55 @@ var polaroidGallery = (function () {
 
             return function (obj, callback) {
                 if (MutationObserver) {
+
+                    if (observeObj) {
+                        observeObj.disconnect();
+                    }
+
                     var obs = new MutationObserver(function (mutations, observer) {
                         if( mutations[0].addedNodes.length || mutations[0].removedNodes.length )
                         callback(mutations);
                     });
 
                     obs.observe(obj, { childList: true, subtree: false });
+                    observeObj = obs;
                 }
                 else if (eventListenerSupported) {
+
+                    if (observeObj) {
+                        observeObj.removeEventListener("DOMNodeInserted",observeDOMCallback);
+                    }
                     obj.addEventListener('DOMNodeInserted', callback, false);
+                    observeObj = obj;
                 }
             }
         })();
 
-        observeDOM(document.getElementById(galleryId), function (mutations) {
-            var gallery = [].slice.call(mutations[0].addedNodes);
-            var zIndex = 1;
-            gallery.forEach(function (item) {
-                var img = item.getElementsByTagName('img')[0];
-                var first = true;
-                img.addEventListener('load', function () {
-                    if (first) {
-                        currentItem = item;
-                        first = false;
-                    }
-                    dataSize[item.id] = {item: item, width: item.offsetWidth, height: item.offsetHeight};
+        observeDOM(document.getElementById(galleryId), observeDOMCallback);
+    }
 
-                    dataLength++;
+    function observeDOMCallback(mutations) {
+        var gallery = [].slice.call(mutations[0].addedNodes);
+        var zIndex = 1;
+        gallery.forEach(function (item) {
+            var img = item.getElementsByTagName('img')[0];
+            var first = true;
+            img.addEventListener('load', function () {
+                if (first) {
+                    currentItem = item;
+                    first = false;
+                }
+                dataSize[item.id] = {item: item, width: item.offsetWidth, height: item.offsetHeight};
 
-                    item.addEventListener('click', function () {
-                        select(item);
-                        shuffleAll();
-                    });
+                dataLength++;
 
-                    shuffle(item, zIndex++);
-                })
-            });
+                item.addEventListener('click', function () {
+                    select(item);
+                    shuffleAll();
+                });
+
+                shuffle(item, zIndex++);
+            })
         });
     }
 
@@ -121,17 +142,21 @@ var polaroidGallery = (function () {
         navbarHeight = document.getElementById(navId).offsetHeight;
         navigation();
 
-        window.addEventListener('resize', function () {
-            if (resizeTimeout) {
-                clearTimeout(resizeTimeout);
+        window.removeEventListener("resize",nextCallback);
+
+        window.addEventListener('resize', resizeCallback);
+    }
+
+    function resizeCallback() {
+        if (resizeTimeout) {
+            clearTimeout(resizeTimeout);
+        }
+        resizeTimeout = setTimeout(function () {
+            shuffleAll();
+            if (currentItem) {
+                select(currentItem);
             }
-            resizeTimeout = setTimeout(function () {
-                shuffleAll();
-                if (currentItem) {
-                    select(currentItem);
-                }
-            }, 100);
-        });
+        }, 100);
     }
 
     function select(item) {
@@ -187,26 +212,35 @@ var polaroidGallery = (function () {
     }
 
     function navigation() {
+
         var next = document.getElementById(nextId);
         var preview = document.getElementById(previewId);
 
-        next.addEventListener('click', function () {
-            var currentIndex = Number(currentItem.id) + 1;
-            if (currentIndex >= dataLength) {
-                currentIndex = 0
-            }
-            select(dataSize[currentIndex].item);
-            shuffleAll();
-        });
+        next.removeEventListener("click",nextCallback);
 
-        preview.addEventListener('click', function () {
-            var currentIndex = Number(currentItem.id) - 1;
-            if (currentIndex < 0) {
-                currentIndex = dataLength - 1
-            }
-            select(dataSize[currentIndex].item);
-            shuffleAll();
-        })
+        next.addEventListener('click', nextCallback);
+
+        next.removeEventListener("click",previewCallback);
+
+        preview.addEventListener('click', previewCallback)
+    }
+
+    function nextCallback() {
+        var currentIndex = Number(currentItem.id) + 1;
+        if (currentIndex >= dataLength) {
+            currentIndex = 0
+        }
+        select(dataSize[currentIndex].item);
+        shuffleAll();
+    }
+
+    function previewCallback() {
+        var currentIndex = Number(currentItem.id) - 1;
+        if (currentIndex < 0) {
+            currentIndex = dataLength - 1
+        }
+        select(dataSize[currentIndex].item);
+        shuffleAll();
     }
 
     return polaroidGallery;
