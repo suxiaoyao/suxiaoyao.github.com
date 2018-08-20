@@ -6,6 +6,8 @@
 
     <link href="../common/css/stylesheet.css" rel="stylesheet">
 
+    <script src="../thirdparty/jquery/js/jquery-3.3.1.min.js"></script>
+
 </head>
 <body>
 <div style="width: 50vw; height: 50vh;float: left;">
@@ -22,50 +24,202 @@
 </div>
 <div style="clear: both;"></div>
 <script type="text/javascript" src="player/cyberplayer.js"></script>
+
 <script type="text/javascript">
-    var player = cyberplayer("playercontainer").setup({
-        width: '100%',
-        height: '100%',
-        file: "rtmp://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1", // <—rtmp or flv直播地址
-        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
-        autostart: true,
-        stretching: "uniform",
-        volume: 100,
-        controls: false,
-        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
-    });
-    var player1 = cyberplayer("playercontainer1").setup({
-        width: '100%',
-        height: '100%',
-        file: "rtmp://live.hkstv.hk.lxdns.com/live/hks", // <—rtmp or flv直播地址
-        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
-        autostart: true,
-        stretching: "uniform",
-        volume: 100,
-        controls: false,
-        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
-    });
-    var player2 = cyberplayer("playercontainer2").setup({
-        width: '100%',
-        height: '100%',
-        file: "rtmp://live.hkstv.hk.lxdns.com/live/hks", // <—rtmp or flv直播地址
-        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
-        autostart: true,
-        stretching: "uniform",
-        volume: 100,
-        controls: false,
-        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
-    });
-    var player3 = cyberplayer("playercontainer3").setup({
-        width: '100%',
-        height: '100%',
-        file: "rtmp://pull-g.kktv8.com/livekktv/100987038", // <—rtmp or flv直播地址
-        fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
-        autostart: true,
-        stretching: "uniform",
-        volume: 100,
-        controls: false,
-        ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+
+    $(function() {
+
+        var client_id = 'vy0p7sTgPdJDOgk8Gb8d';
+        var client_secret = 'EE4ztIWWv0BNep3sL4DU3H1XkfflSLLK1fA3NjUA';
+
+        var tokenData = {
+            grant_type: 'client_credentials',
+            client_id: client_id,
+            client_secret: client_secret
+        };
+
+        var tokenUrl = 'https://api.iermu.com/oauth2/token';
+
+        $.ajax({
+            type: 'POST',
+            url: tokenUrl,
+            data: tokenData,
+            dataType:"text",
+            // jsonpCallback:"success_jsonpCallback",
+            success:function (resp) {
+
+                // console.log('返回成功--->请求地址：' + tokenUrl + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                var respData = JSON.parse(resp);
+
+                var access_token = respData.access_token;
+
+                // console.log('获取到的access_token：' + access_token);
+
+                var data = {
+                    deviceid: 137898512267,
+                    method: "liveplay",
+                    access_token: access_token
+                };
+
+                var url = 'https://api.iermu.com/v2/pcs/device';
+
+                // console.log('请求直播地址的参数：' + JSON.stringify(data));
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data,
+                    dataType:"jsonp",
+                    // jsonpCallback:"success_jsonpCallback",
+                    success:function (resp) {
+                        // console.log('返回成功--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                        var videoUrl = resp.url;
+
+                        // console.log(videoUrl);
+
+                        var player = cyberplayer("playercontainer").setup({
+                            width: '100%',
+                            height: '100%',
+                            file: videoUrl, // <—rtmp or flv直播地址
+                            fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+                            autostart: true,
+                            stretching: "uniform",
+                            volume: 0,
+                            controls: false,
+                            ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+                        });
+
+                    },
+                    error:function(resp){
+                        // console.log('返回失败--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                    }
+                });
+
+                var data1 = {
+                    deviceid: 137898523675,
+                    method: "liveplay",
+                    access_token: access_token
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data1,
+                    dataType:"jsonp",
+                    // jsonpCallback:"success_jsonpCallback",
+                    success:function (resp) {
+                        // console.log('返回成功--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                        var videoUrl = resp.url;
+
+                        // console.log(videoUrl);
+
+                        var player1 = cyberplayer("playercontainer1").setup({
+                            width: '100%',
+                            height: '100%',
+                            file: videoUrl, // <—rtmp or flv直播地址
+                            fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+                            autostart: true,
+                            stretching: "uniform",
+                            volume: 0,
+                            controls: false,
+                            ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+                        });
+
+                    },
+                    error:function(resp){
+                        console.log('返回失败--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                    }
+                });
+
+                var data2 = {
+                    deviceid: 137898516315,
+                    method: "liveplay",
+                    access_token: access_token
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data2,
+                    dataType:"jsonp",
+                    // jsonpCallback:"success_jsonpCallback",
+                    success:function (resp) {
+                        // console.log('返回成功--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                        var videoUrl = resp.url;
+
+                        // console.log(videoUrl);
+
+                        var player2 = cyberplayer("playercontainer2").setup({
+                            width: '100%',
+                            height: '100%',
+                            file: videoUrl, // <—rtmp or flv直播地址
+                            fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+                            autostart: true,
+                            stretching: "uniform",
+                            volume: 0,
+                            controls: false,
+                            ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+                        });
+
+                    },
+                    error:function(resp){
+                        console.log('返回失败--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                    }
+                });
+
+                var data3 = {
+                    deviceid: 137898519755,
+                    method: "liveplay",
+                    access_token: access_token
+                };
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data3,
+                    dataType:"jsonp",
+                    // jsonpCallback:"success_jsonpCallback",
+                    success:function (resp) {
+                        // console.log('返回成功--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                        var videoUrl = resp.url;
+
+                        // console.log(videoUrl);
+
+                        var player3 = cyberplayer("playercontainer3").setup({
+                            width: '100%',
+                            height: '100%',
+                            file: videoUrl, // <—rtmp or flv直播地址
+                            fallbackfile: "http://cyberplayerplay.kaywang.cn/cyberplayer/demo201711-L1.m3u8", // <— 备用播放地址，为了手机上能进行直播，设置hls直播流
+                            autostart: true,
+                            stretching: "uniform",
+                            volume: 0,
+                            controls: false,
+                            ak: "2512efb6bd4340c48149a14e29bf0820" // 公有云平台注册即可获得accessKey
+                        });
+
+                    },
+                    error:function(resp){
+                        console.log('返回失败--->请求地址：' + url + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+                    }
+                });
+
+
+            },
+            error:function(resp){
+                console.log('返回失败--->请求地址：' + tokenUrl + '\n' + '--->返回数据：' + JSON.stringify(resp));
+
+            }
+        });
+
     });
 </script>
 
