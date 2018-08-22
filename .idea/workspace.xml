@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/images/miniapp_code.JPG" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/testminiappcode.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/xeye/openfacelist.html" afterPath="$PROJECT_DIR$/xeye/openfacelist.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,15 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openfacelist.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="openfacelist.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="94" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+            <state relative-caret-position="315">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1534904943086" expanded="true" signature="1987:2012" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cyberplayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video/player/cyberplayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="0" column="2759" lean-forward="true" selection-start-line="0" selection-start-column="2759" selection-end-line="0" selection-end-column="2759" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +92,8 @@
       <file leaf-file-name="polaroid-gallery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -96,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/video/video.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="187" column="61" lean-forward="true" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+              <caret line="187" column="61" lean-forward="false" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -112,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/video/video1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="197" column="43" lean-forward="true" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
+              <caret line="197" column="43" lean-forward="false" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -124,24 +131,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testminiappcode.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testminiappcode.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xeye/testminiappcode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/player/videojs/video.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,10 +213,10 @@
         <option value="$PROJECT_DIR$/activity/valentineday.html" />
         <option value="$PROJECT_DIR$/activity/data/data.json" />
         <option value="$PROJECT_DIR$/activity/data/data1.json" />
-        <option value="$PROJECT_DIR$/xeye/openfacelist.html" />
         <option value="$PROJECT_DIR$/video/video.html" />
         <option value="$PROJECT_DIR$/video/video1.html" />
         <option value="$PROJECT_DIR$/xeye/testminiappcode.html" />
+        <option value="$PROJECT_DIR$/xeye/openfacelist.html" />
       </list>
     </option>
   </component>
@@ -260,7 +257,13 @@
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
+              <item name="polaroid-gallery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -331,12 +334,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
       <workItem from="1533802959743" duration="73109000" />
-      <workItem from="1534726885498" duration="13328000" />
+      <workItem from="1534726885498" duration="15110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86437000" />
+    <option name="totallyTimeSpent" value="88219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1394" height="877" extended-state="6" />
@@ -670,14 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video/image/video-background.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -686,7 +681,7 @@
     <entry file="file://$PROJECT_DIR$/video/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="187" column="61" lean-forward="true" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+          <caret line="187" column="61" lean-forward="false" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -700,7 +695,7 @@
     <entry file="file://$PROJECT_DIR$/video/video1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="197" column="43" lean-forward="true" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
+          <caret line="197" column="43" lean-forward="false" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -711,23 +706,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
+    <entry file="file://$PROJECT_DIR$/xeye/testminiappcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="94" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+        <state relative-caret-position="210">
+          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xeye/testminiappcode.html">
+    <entry file="file://$PROJECT_DIR$/video/player/cyberplayer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="300">
+          <caret line="0" column="2759" lean-forward="true" selection-start-line="0" selection-start-column="2759" selection-end-line="0" selection-end-column="2759" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1534904943086" expanded="true" signature="1987:2012" ph="..." />
           </folding>
         </state>
       </provider>

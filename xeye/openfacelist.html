@@ -17,10 +17,6 @@
 <body>
 
     <div id="imgContianer">
-
-        <img class="img-1" alt="Base64 encoded image" style="width: 100px;height: 100px;" src="">
-        <img class="img-2" alt="Base64 encoded image" style="width: 100px;height: 100px;" src="">
-
     </div>
 
     <script>
@@ -59,19 +55,20 @@
 
                                 if (faceList && faceList.length > 0) {
 
-                                    var face = faceList[0];
-                                    var faceImgStr = face.faceImgStr;
+                                    for (var i = 0; i < faceList.length; i++) {
 
-                                    var faceUrl = 'data:image/gif;base64,' + faceImgStr;
+                                        var face = faceList[i];
 
-                                    $('.img-1').attr("src",faceUrl);
+                                        var faceImgStr = face.faceImgStr;
 
-                                    var face2 = faceList[1];
-                                    var faceImgStr2 = face2.faceImgStr;
+                                        var faceUrl = 'data:image/gif;base64,' + faceImgStr;
 
-                                    var faceUrl2 = 'data:image/gif;base64,' + faceImgStr2;
 
-                                    $('.img-2').attr("src",faceUrl2);
+                                        var imgHtml = '<img style="width: 10vw;height: 10vw;" src="' + faceUrl + '">';
+
+                                        $("#imgContianer").append(imgHtml);
+
+                                    }
 
                                 }else {
 
