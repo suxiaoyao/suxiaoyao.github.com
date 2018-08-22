@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/openfacelist.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/activity/valentineday.html" afterPath="$PROJECT_DIR$/activity/valentineday.html" />
-      <change beforePath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" afterPath="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" />
+      <change beforePath="$PROJECT_DIR$/video/image/video-background.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/video.html" afterPath="$PROJECT_DIR$/video/video.html" />
+      <change beforePath="$PROJECT_DIR$/video/video1.html" afterPath="$PROJECT_DIR$/video/video1.html" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/video-js.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/video-js.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-flash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-flash.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-ie8.min.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="valentineday.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="valentineday.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="89" column="48" lean-forward="true" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+            <state relative-caret-position="1286">
+              <caret line="91" column="36" lean-forward="false" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
               <folding>
                 <element signature="e#2191#2195#0" expanded="true" />
                 <element signature="e#2247#2251#0" expanded="true" />
@@ -39,11 +49,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="openfacelist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="data1.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/activity/data/data1.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+              <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -62,8 +95,8 @@
       <file leaf-file-name="polaroid-gallery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="122" selection-end-column="28" />
+            <state relative-caret-position="428">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,22 +105,24 @@
       <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="187" column="61" lean-forward="true" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="video1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video/video1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="90" column="58" lean-forward="false" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
+            <state relative-caret-position="135">
+              <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -104,36 +139,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/css/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/videojs/video.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369090">
-              <caret line="24606" column="22" lean-forward="false" selection-start-line="24606" selection-start-column="22" selection-end-line="24606" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data4.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/activity/data/data4.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -205,12 +210,13 @@
         <option value="$PROJECT_DIR$/activity/valentineday3.html" />
         <option value="$PROJECT_DIR$/activity/valentineday4.html" />
         <option value="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.css" />
-        <option value="$PROJECT_DIR$/video/video.html" />
-        <option value="$PROJECT_DIR$/video/video1.html" />
         <option value="$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js" />
         <option value="$PROJECT_DIR$/activity/valentineday.html" />
         <option value="$PROJECT_DIR$/activity/data/data.json" />
         <option value="$PROJECT_DIR$/activity/data/data1.json" />
+        <option value="$PROJECT_DIR$/xeye/openfacelist.html" />
+        <option value="$PROJECT_DIR$/video/video.html" />
+        <option value="$PROJECT_DIR$/video/video1.html" />
       </list>
     </option>
   </component>
@@ -251,13 +257,12 @@
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="xeye" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,12 +322,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
       <workItem from="1533802959743" duration="73109000" />
-      <workItem from="1534726885498" duration="8195000" />
+      <workItem from="1534726885498" duration="12933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81304000" />
+    <option name="totallyTimeSpent" value="86042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1394" height="877" extended-state="6" />
@@ -390,9 +395,11 @@
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -484,6 +491,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="5" column="6676" lean-forward="false" selection-start-line="5" selection-start-column="6676" selection-end-line="5" selection-end-column="6676" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,6 +499,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="3" column="2378" lean-forward="false" selection-start-line="3" selection-start-column="2378" selection-end-line="3" selection-end-column="2378" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,6 +509,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,6 +519,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,13 +549,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -610,40 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video/video1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="90" column="58" lean-forward="false" selection-start-line="90" selection-start-column="58" selection-end-line="90" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="122" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activity/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -655,15 +629,23 @@
     <entry file="file://$PROJECT_DIR$/activity/data/data1.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+          <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/activity/valentineday.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="89" column="48" lean-forward="true" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+        <state relative-caret-position="1286">
+          <caret line="91" column="36" lean-forward="false" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
           <folding>
             <element signature="e#2191#2195#0" expanded="true" />
             <element signature="e#2247#2251#0" expanded="true" />
@@ -675,6 +657,58 @@
             <element signature="e#3066#3070#0" expanded="true" />
             <element signature="e#3282#3286#0" expanded="true" />
             <element signature="e#3339#3343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/polaroid-gallery/polaroid-gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/image/video-background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="187" column="61" lean-forward="true" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/video1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
