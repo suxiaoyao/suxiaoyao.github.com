@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc84a0b-4777-4d72-997c-dc0d07cabedc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/openfacelist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/images/miniapp_code.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/xeye/testminiappcode.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/video/image/video-background.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/video.html" afterPath="$PROJECT_DIR$/video/video.html" />
-      <change beforePath="$PROJECT_DIR$/video/video1.html" afterPath="$PROJECT_DIR$/video/video1.html" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/video-js.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/video-js.swf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/video.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-contrib-hls.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-flash.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-flash.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/videojs/videojs-ie8.min.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +42,8 @@
       <file leaf-file-name="openfacelist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="94" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -118,17 +108,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video/video1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="197" column="43" lean-forward="true" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testminiappcode.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xeye/testminiappcode.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,6 +219,7 @@
         <option value="$PROJECT_DIR$/xeye/openfacelist.html" />
         <option value="$PROJECT_DIR$/video/video.html" />
         <option value="$PROJECT_DIR$/video/video1.html" />
+        <option value="$PROJECT_DIR$/xeye/testminiappcode.html" />
       </list>
     </option>
   </component>
@@ -264,6 +267,12 @@
               <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
               <item name="xeye" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="suxiaoyao.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suxiaoyao.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="xeye" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -281,19 +290,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xeye/images" />
+      <recent name="$PROJECT_DIR$/activity/data" />
+      <recent name="$PROJECT_DIR$/thirdparty/md5" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/thirdparty/popper-1.14.4" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/video" />
       <recent name="$PROJECT_DIR$/activity/img" />
       <recent name="$PROJECT_DIR$/activity" />
       <recent name="$PROJECT_DIR$/thirdparty/polaroid-gallery" />
       <recent name="$PROJECT_DIR$/thirdparty/jquery.fullPage" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/activity/data" />
-      <recent name="$PROJECT_DIR$/thirdparty/md5" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/thirdparty/popper-1.14.4" />
-      <recent name="$PROJECT_DIR$/common/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533802957096</updated>
       <workItem from="1533802959743" duration="73109000" />
-      <workItem from="1534726885498" duration="12933000" />
+      <workItem from="1534726885498" duration="13328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86042000" />
+    <option name="totallyTimeSpent" value="86437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1394" height="877" extended-state="6" />
@@ -669,17 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video/image/video-background.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -701,14 +699,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video/video1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="182" column="24" lean-forward="true" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="197" column="43" lean-forward="true" selection-start-line="197" selection-start-column="43" selection-end-line="197" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xeye/openfacelist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="94" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xeye/testminiappcode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
