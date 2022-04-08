@@ -1,0 +1,8 @@
+
+*~
+.DS_Store
+*.xcuserstate
+xcuserdata
+DXJR_mPaaSSDK
+Pods
+*.lock
