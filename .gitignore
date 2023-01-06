@@ -1,6 +1,7 @@
 
 *~
 .DS_Store
+.idea
 *.xcuserstate
 xcuserdata
 DXJR_mPaaSSDK
